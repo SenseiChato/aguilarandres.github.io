@@ -2,108 +2,124 @@
 <html lang="en">
 <title>portfolio</title>
 <head>
-<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<!-- custom styling -->
-<link rel="stylesheet" type="text/css" href="mystyle.css">
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--
+    Simple collapsible
+    https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_collapsible&stacked=h
+  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- custom styling -->
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 
 <header class="w3-container w3-black w3-center w3-margin-bottom">
   <p>
     <a href="https://github.com/aguilarandres" target="_blank" rel="noopener">
       <i class="fa fa-github" style="font-size:48px; padding-left:16px"></i></a>
-    <a href="https://www.linkedin.com/in/a-guilar/" target="_blank" rel="noopener">
-      <i class="fa fa-linkedin-square" style="font-size:48px; padding-left:16px"></i></a>
-  </p>
-</header>
+      <a href="https://www.linkedin.com/in/a-guilar/" target="_blank" rel="noopener">
+        <i class="fa fa-linkedin-square" style="font-size:48px; padding-left:16px"></i></a>
+      </p>
+    </header>
 
-<body class="w3-black">
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-  <!-- The Grid -->
-  <div class="w3-row-padding">
-    <!-- Left Column -->
-    <div class="w3-third">
-      <div class="w3-black w3-text-white w3-card-4">
-        <div class="w3-display-container">
-          <img src="./avatar.jpg" style="width:77%" alt="Avatar">
-        </div>
+    <body class="w3-black">
+      <!-- Page Container -->
+      <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+          <!-- Left Column -->
+          <div class="w3-third">
+            <div class="w3-black w3-text-white w3-card-4">
+              <div class="w3-display-container">
+                <img src="./avatar.jpg" style="width:77%" alt="Avatar">
+              </div>
 
-        <div class="w3-container">
-          <p class="w3-xxlarge w3-text-theme">
-            <a href="mailto:aguilar_andres@protonmail.com" target="_top">
-              <i class="fa fa-send fa-fw w3-margin-right w3-xlarge w3-text-teal"></i></a>andres aguilar
-          </p>
-          <hr>
-          <p class="w3-large w3-text-theme"><b>
-            <i class="fa fa-code fa-fw w3-margin-right w3-text-teal" style="font-size:36px"></i>programming</b>
-            <hr>
-          </p>
-          <ul class="w3-large w3-text-theme">
-            <p>c++<p>
-            <p>python</p>
-            <p>javascript</p>
-            <p>html</p>
-            <p>css</p>
-            <p>git</p>
-          </ul>
-          <hr>
-          <p class="w3-large w3-text-theme"><b>
-            <i class="fa fa-language fa-fw w3-margin-right w3-text-teal" style="font-size:36px"></i>languages</b>
-          </p>
-          <hr>
-          <ul class="w3-large w3-text-theme">
-            <p>english</p>
-            <p>spanish</p>
-          </ul>
-        </div>
-      </div>
-    <!-- End Left Column -->
-    </div>
-    <!-- Right Column -->
-    <div class="w3-twothird">
-      <div class="w3-container w3-card w3-black w3-margin-bottom">
-        <h2 class="w3-text-white w3-padding-16">
-          <i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>projects</h2>
-          <hr>
-        <div class="w3-container">
-          <h3 class="w3-text-yellow"><b>this</b></h3>
-          <hr>
-        </div>
-      </div>
+              <div class="w3-container">
+                <p class="w3-xxlarge w3-text-theme">
+                  <a href="mailto:aguilar_andres@protonmail.com" target="_top">
+                    <i class="fa fa-send fa-fw w3-margin-right w3-xlarge w3-text-teal"></i></a>andres aguilar
+                  </p>
+                  <hr>
+                  <p class="w3-large w3-text-theme"><b>
+                    <i class="fa fa-code fa-fw w3-margin-right w3-text-teal" style="font-size:36px"></i>programming</b>
+                    <hr>
+                  </p>
+                  <ul class="w3-large">
+                    <p>c++<p>
+                      <p>python</p>
+                      <p>javascript</p>
+                      <p>html</p>
+                      <p>css</p>
+                      <p>git</p>
+                    </ul>
+                    <hr>
+                    <p class="w3-large"><b>
+                      <i class="fa fa-language fa-fw w3-margin-right w3-text-teal" style="font-size:36px"></i>languages</b>
+                    </p>
+                    <hr>
+                    <ul>
+                      <p>english</p>
+                      <p>spanish</p>
+                    </ul>
+                  </div>
+                </div>
+                <!-- End Left Column -->
+              </div>
+              <!-- Right Column -->
+              <div class="w3-twothird">
+                <div class="w3-container w3-card w3-black w3-margin-bottom">
+                  <h2 class="w3-text-white w3-padding-16">
+                    <i class="fa fa-code fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>projects</h2>
+                    <hr>
+                    <div class="w3-container">
+                      <h3 class="w3-text-yellow"><b>this</b></h3>
+                      <hr>
+                    </div>
+                  </div>
 
-      <div class="w3-container w3-card w3-black">
-        <h2 class="w3-text-white w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>education</h2>
-        <hr>
-        <div class="w3-container">
-          <h4>Georgia Institute of Technology through edX [SEP 2018]</h4>
-          <h4>
-            <a href="https://courses.edx.org/certificates/2b2140d3771e4d8b87acae69f0ec5f35" target="_blank" rel="noopener">
-              <i class="fa fa-certificate w3-text-teal" style="font-size:18px"></i></a>
-            Computing <span class="w3-text-yellow"> in </span>Python: Objects
-            <span class="w3-text-yellow"> and </span>
-            Algorithms
-          </h4>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h4>British Columbia Institute of Technology <span> [SEP 2013 : PRESENT] </span></h4>
-          <h4>Computer Systems Technology Diploma</h4>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h4>British Columbia Institute of Technology [JAN 2017 : JAN 2018]</h4>
-          <h4>Computer Systems Certificate</h4>
-          <hr>
-        </div>
-      </div>
-    <!-- End Right Column -->
-    </div>
-  <!-- End Grid -->
-  </div>
-  <!-- End Page Container -->
-</div>
-</body>
-</html>
+                  <div class="w3-container w3-card w3-black">
+                    <h2 class="w3-text-white w3-padding-16"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>education</h2>
+                    <hr>
+                    <div class="w3-container">
+                      <h4>Georgia Institute of Technology through edX [SEP 2018]</h4>
+                      <h4>
+                        <a href="https://courses.edx.org/certificates/2b2140d3771e4d8b87acae69f0ec5f35" target="_blank" rel="noopener">
+                          <i class="fa fa-certificate w3-text-teal" style="font-size:18px"></i></a>
+                          Computing <span class="w3-text-yellow"> in </span>Python: Objects
+                          <span class="w3-text-yellow"> and </span>
+                          Algorithms
+                        </h4>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h4>British Columbia Institute of Technology <span> [SEP 2013 : PRESENT] </span></h4>
+                        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#details">Computer Systems Technology Diploma</button>
+                          <ul id="details" class="collapse">
+                            <li> Participate in all aspects of software development and maintenance </li>
+                            <li> Contribute and communicate effectively as a member of software project teams </li>
+                            <li> Design and code with widely-used programming languages and scripting tools, such as JavaScript, Java, C#, C++, and C </li>
+                            <li> Develop and maintain complex software systems that integrate scalable components </li>
+                            <li> Apply logical, critical, and creative thinking to synthesize solutions to computing and IT problems </li>
+                            <li> Work productively and meet deadlines in a fast-paced, deadline-driven environment </li>
+                            <li> Independently learn and adopt new tools, technologies and methods to remain up-to-date and effective </li>
+                          </ul>
+                        <hr>
+                      </div>
+                      <div class="w3-container">
+                        <h4>British Columbia Institute of Technology [JAN 2017 : JAN 2018]</h4>
+                        <h4>Computer Systems Certificate</h4>
+                        <hr>
+                      </div>
+                    </div>
+                    <!-- End Right Column -->
+                  </div>
+                  <!-- End Grid -->
+                </div>
+                <!-- End Page Container -->
+              </div>
+            </body>
+            </html>
