@@ -1,5 +1,14 @@
 html,body,h1,h2,h3,h4,h5,h6{font-family: "Ubuntu Mono", sans-serif}
 
+i.fa-github {
+  font-size: 48px;
+  padding-left:16px;
+}
+
+i.fa-linkedin-square {
+  font-size: 48px;
+  padding-left:16px;
+}
 header{
   display: flex;
   justify-content: center;
@@ -9,6 +18,7 @@ header{
 body {
   background-color: black;
 }
+
 a:hover{
   color: yellow;
 }
