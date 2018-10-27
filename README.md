@@ -1,1 +1,1 @@
-modified w3-schools theme for personal profile
+modified w3-schools template for personal profile
