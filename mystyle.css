@@ -26,6 +26,7 @@ div#left_column {
 
 i.fa-code {
   color: teal;
+  font-size: 32px;
   margin-right: 0.5em;
 }
 
@@ -36,6 +37,7 @@ i.fa-graduation-cap {
 
 i.fa-language {
   color: teal;
+  font-size: 32px;
   margin-right: 0.5em;
 }
 
@@ -46,6 +48,7 @@ i.fa-certificate {
 
 i.fa-send {
   color: teal;
+  font-size: 24px;
   margin-right: 0.5em
 }
 
