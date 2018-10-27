@@ -19,38 +19,39 @@ h3#this {
   color: yellow;
 }
 
+div#left_column {
+  color: white;
+  font-size: 18px;
+}
+
 i.fa-code {
-  font-size: 36px;
   color: teal;
   margin-right: 0.5em;
 }
 
 i.fa-graduation-cap {
-  font-size: 36px;
   color: teal;
   margin-right: 0.5em;
 }
 
 i.fa-language {
-  font-size: 36px;
   color: teal;
   margin-right: 0.5em;
 }
 
 i.fa-certificate {
-  font-size: 18px;
   color: teal;
   margin-right: 0.5em;
 }
 
 i.fa-send {
-  font-size: 24px;
   color: teal;
   margin-right: 0.5em
 }
 
 i.fa-code-fork {
   color: teal;
+  margin-right: 0.5em
 }
 
 header{
