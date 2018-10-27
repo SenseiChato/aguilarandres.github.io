@@ -1,4 +1,7 @@
-html,body,h1,h2,h3,h4,h5,h6{font-family: "Ubuntu Mono", sans-serif}
+html,body,h1,h2,h3,h4,h5,h6{
+  font-family: "Ubuntu Mono",
+  sans-serif
+}
 
 i.fa-github {
   color: white;
@@ -43,6 +46,7 @@ i.fa-certificate {
 i.fa-send {
   font-size: 24px;
   color: teal;
+  margin-right: 0.5em
 }
 
 i.fa-code-fork {
