@@ -3,12 +3,7 @@ html,body,h1,h2,h3,h4,h5,h6{
   sans-serif
 }
 
-i.fa-github {
-  color: white;
-  font-size: 48px;
-  padding-left:16px;
-}
-
+i.fa-github,
 i.fa-linkedin-square {
   color: white;
   font-size: 48px;
@@ -24,24 +19,16 @@ div#left_column {
   font-size: 18px;
 }
 
-i.fa-code {
-  color: teal;
-  font-size: 32px;
-  margin-right: 0.5em;
-}
-
-i.fa-graduation-cap {
-  color: teal;
-  margin-right: 0.5em;
-}
-
+i.fa-code,
 i.fa-language {
   color: teal;
   font-size: 32px;
   margin-right: 0.5em;
 }
 
-i.fa-certificate {
+i.fa-graduation-cap,
+i.fa-certificate,
+i.fa-code-fork {
   color: teal;
   margin-right: 0.5em;
 }
@@ -52,12 +39,7 @@ i.fa-send {
   margin-right: 0.5em
 }
 
-i.fa-code-fork {
-  color: teal;
-  margin-right: 0.5em
-}
-
-header{
+header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,10 +49,10 @@ body {
   background-color: black;
 }
 
-hr{
+hr {
   border-top: 1px dashed;
 }
 
-#details{
+#details {
   font-size: 16px
 }
