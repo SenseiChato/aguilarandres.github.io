@@ -97,15 +97,18 @@
                 education
               </h2>
               <hr>
-              <h4>
-                <i class="fa fa-free-code-camp"></i>
-                freeCodeCamp [OCT / NOV 2018]
-                <br>
-                <a href="https://www.freecodecamp.org/certification/aguilarandres/responsive-web-design" target="_blank" rel="noopener">
-                  <i class="fa fa-certificate"></i></a>
-                  Responsive Web Design Certification
-                </h4>
-                <hr>
+              <div id="school">
+                <h4>
+                  <i class="fa fa-free-code-camp"></i>
+                  {{ name }} [OCT / NOV 2018]
+                  <br>
+                  <a :href="url" target="_blank" rel="noopener">
+                    <i class="fa fa-certificate"></i></a>
+                    {{ cert }}
+                  </h4>
+                  <hr>
+                  <script src="./js/school.js"></script>
+                </div>
                 <h4>
                   Georgia Institute of Technology through edX [AUG / SEP 2018]
                   <br>
