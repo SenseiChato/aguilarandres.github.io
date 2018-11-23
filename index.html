@@ -6,10 +6,11 @@
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Vue development version, includes helpful console warnings -->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <!-- custom styling -->
   <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
-
 <header>
   <p>
     <a href="https://github.com/aguilarandres" target="_blank" rel="noopener">
@@ -36,100 +37,104 @@
           <div id="left_column">
             <p>
               <a href="mailto:aguilar_andres@protonmail.com" target="_top">
-                <i class="fa fa-send"></i></a>
-                andres aguilar
-              </p>
-              <hr>
-              <p>
-                <i class="fa fa-code"></i>
-                programming
-                <hr>
-              </p>
-              <ul>
-                  <p>c++<p>
-                  <p>python</p>
-                  <p>javascript</p>
-                  <p>vue js</p>
-                  <p>html</p>
-                  <p>css</p>
-                  <p>git</p>
-                </ul>
-                <hr>
-                <p>
-                  <i class="fa fa-language"></i>
-                  languages
-                </p>
-                <hr>
-                <ul>
-                  <p>english</p>
-                  <p>spanish</p>
-                </ul>
-              </div>
+                <i class="fa fa-send"></i>
+              </a>
+              andres aguilar
+            </p>
+            <hr>
+            <p>
+              <i class="fa fa-code"></i>
+              programming
+            </p>
+            <hr>
+            <div>
+              <ul id="tech">
+                <li v-for="item in items">
+                  {{ item.message }}
+                </li>
+              </ul>
+              <script src="js/programming.js"></script>
             </div>
-            <!-- End Left Column -->
-          </div>
-          <!-- Right Column -->
-          <div class="w3-twothird" style="padding: 20px;">
-            <div class="w3-black" style="border-width: 2px;">
-              <h2>
-                <i class="fa fa-code"></i>
-                projects
-              </h2>
-              <hr>
-              <div>
-                <h4 id="this">
-                  <i class="fa fa-code-fork"></i>
-                  this
-                </h4>
-                <h4>
-                    <i class="fa fa-code-fork"></i></a>
-                    hacktoberfest 2018
-                  </h4>
-                  <hr>
-                </div>
-              </div>
-
-              <div class="w3-black" style="border-width: 2px;">
-                <h2>
-                  <i class="fa fa-graduation-cap"></i>
-                  education
-                </h2>
-                <hr>
-                <div>
-                  <h4>
-                    <i class="fa fa-free-code-camp"></i>
-                    freeCodeCamp [OCT / NOV 2018]
-                  </h4>
-                  <h4>
-                    <a href="https://www.freecodecamp.org/certification/aguilarandres/responsive-web-design" target="_blank" rel="noopener">
-                     <i class="fa fa-certificate"></i></a>
-                    Responsive Web Design Certification
-                  </h4>
-                  <hr>
-                  <h4>Georgia Institute of Technology through edX [AUG / SEP 2018]</h4>
-                  <h4>
-                    <a href="https://courses.edx.org/certificates/2b2140d3771e4d8b87acae69f0ec5f35" target="_blank" rel="noopener">
-                      <i class="fa fa-certificate"></i></a>
-                    Computing in Python: Objects and Algorithms
-                  </h4>
-                  <hr>
-                </div>
-                <div>
-                  <h4>British Columbia Institute of Technology <span> [SEP 2013 : NOV 2018] </span></h4>
-                  <h4>Computer Systems Technology Diploma</h4>
-                  <hr>
-                </div>
-                <div>
-                  <h4>British Columbia Institute of Technology [MAR 2017 : MAR 2018]</h4>
-                  <h4>Computer Systems Certificate</h4>
-                  <hr>
-                </div>
-              </div>
-              <!-- End Right Column -->
+            <hr>
+            <p>
+              <i class="fa fa-language"></i>
+              languages
+            </p>
+            <hr>
+            <div>
+              <ul id="lang">
+                <li v-for="item in items">
+                  {{ item.language }}
+                </li>
+              </ul>
+              <script src="js/languages.js"></script>
             </div>
-            <!-- End Grid -->
           </div>
-          <!-- End Page Container -->
         </div>
-      </body>
-      </html>
+        <!-- End Left Column -->
+      </div>
+      <!-- Right Column -->
+      <div class="w3-twothird" style="padding: 20px;">
+        <div class="w3-black" style="border-width: 2px;">
+          <h2>
+            <i class="fa fa-code"></i>
+            projects
+          </h2>
+          <hr>
+          <div>
+            <h4 id="this">
+              <i class="fa fa-code-fork"></i>
+              this
+            </h4>
+            <h4>
+              <i class="fa fa-code-fork"></i></a>
+              hacktoberfest 2018
+            </h4>
+            <hr>
+          </div>
+        </div>
+
+        <div class="w3-black" style="border-width: 2px;">
+          <h2>
+            <i class="fa fa-graduation-cap"></i>
+            education
+          </h2>
+          <hr>
+          <div>
+            <h4>
+              <i class="fa fa-free-code-camp"></i>
+              freeCodeCamp [OCT / NOV 2018]
+            </h4>
+            <h4>
+              <a href="https://www.freecodecamp.org/certification/aguilarandres/responsive-web-design" target="_blank" rel="noopener">
+                <i class="fa fa-certificate"></i></a>
+                Responsive Web Design Certification
+              </h4>
+              <hr>
+              <h4>Georgia Institute of Technology through edX [AUG / SEP 2018]</h4>
+              <h4>
+                <a href="https://courses.edx.org/certificates/2b2140d3771e4d8b87acae69f0ec5f35" target="_blank" rel="noopener">
+                  <i class="fa fa-certificate"></i></a>
+                  Computing in Python: Objects and Algorithms
+                </h4>
+                <hr>
+              </div>
+              <div>
+                <h4>British Columbia Institute of Technology <span> [SEP 2013 : NOV 2018] </span></h4>
+                <h4>Computer Systems Technology Diploma</h4>
+                <hr>
+              </div>
+              <div>
+                <h4>British Columbia Institute of Technology [MAR 2017 : MAR 2018]</h4>
+                <h4>Computer Systems Certificate</h4>
+                <hr>
+              </div>
+            </div>
+            <!-- End Right Column -->
+          </div>
+          <!-- End Grid -->
+        </div>
+        <!-- End Page Container -->
+      </div>
+    </body>
+    </html>
