@@ -3,6 +3,8 @@ var school = new Vue({
   data: {
     name: "freeCodeCamp",
     cert: "Responsive Web Design Certificate",
-    url: "https://www.freecodecamp.org/certification/aguilarandres/responsive-web-design"
+    url: "https://www.freecodecamp.org/certification/aguilarandres/responsive-web-design",
+    month: 'NOV',
+    year: '2018'        
   }
 })
