@@ -2,13 +2,13 @@ var tech = new Vue({
   el: '#tech',
   data: {
     items: [
-      { message: 'c++' },
-      { message: 'python' },
-      { message: 'javascript' },
-      { message: 'vue js' },
-      { message: 'html' },
-      { message: 'css' },
-      { message: 'git' }
+      { tech: 'c++' },
+      { tech: 'python' },
+      { tech: 'javascript' },
+      { tech: 'vue js' },
+      { tech: 'html' },
+      { tech: 'css' },
+      { tech: 'git' }
     ]
   }
 })
