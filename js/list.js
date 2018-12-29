@@ -3,12 +3,14 @@ var tech = new Vue({
   data: {
     items: [
       { tech: 'c++' },
-      { tech: 'python' },
-      { tech: 'javascript' },
-      { tech: 'vue js' },
-      { tech: 'html' },
       { tech: 'css' },
-      { tech: 'git' }
+      { tech: 'docker' },
+      { tech: 'git' },
+      { tech: 'html' },
+      { tech: 'javascript' },
+      { tech: 'npm' },
+      { tech: 'python' },
+      { tech: 'vue js' }
     ]
   }
 })
