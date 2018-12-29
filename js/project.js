@@ -5,3 +5,11 @@ var superturbo = new Vue({
     url: "https://aguilarandres.github.io/superturbo/"
   }
 })
+
+var hacktober = new Vue({
+  el: '#hacktober',
+  data: {
+    name: "hacktoberfest 2018",
+    url: "https://github.com/aguilarandres/HacktoberFestContribute"
+  }
+})
