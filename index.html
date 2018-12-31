@@ -85,44 +85,32 @@
               </h2>
               <hr>
               <div id="superturbo">
-              <h4>
-                <a :href="url" target="_blank" rel="noopener">
-                  <i class="fa fa-code-fork"></i></a>
-                  {{ name }}
-                </h4>
-              </div>
-                <div id="hacktober">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
+                <h4>
+                  <a :href="url" target="_blank" rel="noopener">
                     <i class="fa fa-code-fork"></i></a>
                     {{ name }}
                   </h4>
-                  <hr>
                 </div>
-                <script src="js/project.js"></script>
-              </div>
-
-              <div class="w3-black" style="border-width: 2px;">
-                <h2>
-                  education
-                </h2>
-                <hr>
-                <!-- Implements Vue js instance -->
-                <div id="freeCodeCamp">
+                <div id="hacktober">
                   <h4>
-                    <i class="fa fa-free-code-camp"></i>
-                    {{ name }} [ {{ month }} {{ year }} ]
-                    <br>
                     <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-certificate"></i></a>
-                      {{ cert }}
+                      <i class="fa fa-code-fork"></i></a>
+                      {{ name }}
                     </h4>
                     <hr>
-                    <script src="./js/school.js"></script>
                   </div>
+                  <script src="js/project.js"></script>
+                </div>
 
-                  <div id="gatech">
+                <div class="w3-black" style="border-width: 2px;">
+                  <h2>
+                    education
+                  </h2>
+                  <hr>
+                  <!-- Implements Vue js instance -->
+                  <div id="freeCodeCamp">
                     <h4>
+                      <i class="fa fa-free-code-camp"></i>
                       {{ name }} [ {{ month }} {{ year }} ]
                       <br>
                       <a :href="url" target="_blank" rel="noopener">
@@ -132,31 +120,43 @@
                       <hr>
                       <script src="./js/school.js"></script>
                     </div>
-                    <div>
-                      <h4>
-                        British Columbia Institute of Technology [MAR 2017 : MAR 2018]
-                        <br>
-                        <i class="fa fa-certificate"></i>
-                        Computer Systems Certificate
-                      </h4>
-                      <hr>
-                    </div>
-                    <div>
-                      <h4>
-                        British Columbia Institute of Technology [SEP 2013 : SEP 2019]
-                        <br>
-                        Computer Systems Technology Diploma
-                      </h4>
-                      <hr>
-                    </div>
 
+                    <div id="gatech">
+                      <h4>
+                        {{ name }} [ {{ month }} {{ year }} ]
+                        <br>
+                        <a :href="url" target="_blank" rel="noopener">
+                          <i class="fa fa-certificate"></i></a>
+                          {{ cert }}
+                        </h4>
+                        <hr>
+                        <script src="./js/school.js"></script>
+                      </div>
+                      <div>
+                        <h4>
+                          British Columbia Institute of Technology [MAR 2017 : MAR 2018]
+                          <br>
+                          <i class="fa fa-certificate"></i>
+                          Computer Systems Certificate
+                        </h4>
+                        <hr>
+                      </div>
+                      <div>
+                        <h4>
+                          British Columbia Institute of Technology [SEP 2013 : SEP 2019]
+                          <br>
+                          Computer Systems Technology Diploma
+                        </h4>
+                        <hr>
+                      </div>
+
+                    </div>
                   </div>
+                  <!-- End Right Column -->
                 </div>
-                <!-- End Right Column -->
+                <!-- End Grid -->
               </div>
-              <!-- End Grid -->
+              <!-- End Page Container -->
             </div>
-            <!-- End Page Container -->
-          </div>
-        </body>
-        </html>
+          </body>
+          </html>
