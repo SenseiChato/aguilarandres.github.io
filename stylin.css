@@ -14,13 +14,9 @@ i.fa-stack-overflow {
   padding-left:24px;
 }
 
-#this {
-  color: yellow;
-}
-
 div#left_column {
   color: white;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 i.fa-code,
@@ -59,7 +55,7 @@ hr {
 }
 
 #details {
-  font-size: 16px;
+  font-size: 24px;
 }
 #grid {
   padding: 20px;
