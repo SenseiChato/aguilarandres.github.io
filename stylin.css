@@ -64,7 +64,7 @@ hr {
 /* Accordion */
 .accordion {
   background-color: teal;
-  color: #444;
+  color: black;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -81,7 +81,7 @@ hr {
 
 .accordion:after {
   content: '\002B';
-  color: #777;
+  color: black;
   font-weight: bold;
   float: right;
   margin-left: 5px;
