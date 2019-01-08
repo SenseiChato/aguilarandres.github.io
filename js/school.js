@@ -41,3 +41,14 @@ var bcit = new Vue({
     year: '2018'
   }
 })
+
+var bcit2 = new Vue({
+  el: '#bcit2',
+  data: {
+    name: "British Columbia Institute of Technology",
+    cert: "Computer Systems Technology Diploma",
+    url: "",
+    month: 'SEP',
+    year: '2019'
+  }
+})
