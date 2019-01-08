@@ -9,6 +9,17 @@ var freeCodeCamp = new Vue({
   }
 })
 
+var freeCodeCamp2 = new Vue({
+  el: '#freeCodeCamp2',
+  data: {
+    name: "freeCodeCamp",
+    cert: "JavaScript Algorithms and Data Structures",
+    url: "https://www.freecodecamp.org/certification/aguilarandres/javascript-algorithms-and-data-structures",
+    month: 'JAN',
+    year: '2019'
+  }
+})
+
 var gatech = new Vue({
   el: '#gatech',
   data: {
