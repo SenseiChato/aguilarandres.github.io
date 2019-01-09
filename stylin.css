@@ -15,47 +15,44 @@ hr {
   border-top: 1px dashed;
 }
 
-i.fa-github,
-i.fa-linkedin-square{
+.fa-github,
+.fa-linkedin-square{
   color: white;
   font-size: 48px;
   padding-left:24px;
 }
-i.fa-stack-overflow {
+.fa-stack-overflow {
   color: white;
   font-size: 44px;
   padding-left:24px;
 }
 
-div#left_column {
+div#left-column {
   color: white;
   font-size: 24px;
 }
 
-i.fa-code,
-i.fa-language {
+.fa-code,
+.fa-language {
   color: teal;
   font-size: 32px;
   margin-right: 0.5em;
 }
 
-i.fa-certificate,
-i.fa-code-fork,
-i.fa-free-code-camp,
-i.fa-laptop {
+.fa-certificate,
+.fa-code-fork,
+.fa-free-code-camp,
+.fa-laptop {
   color: teal;
   margin-right: 0.5em;
 }
 
-i.fa-send {
+.fa-send {
   color: teal;
   font-size: 24px;
   margin-right: 0.5em
 }
 
-#details {
-  font-size: 24px;
-}
 #grid {
   padding: 20px;
 }
