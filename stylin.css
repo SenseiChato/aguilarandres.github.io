@@ -2,6 +2,19 @@ html,body,h1,h2,h3,h4,h5,h6{
   font-family: "Ubuntu Mono", sans-serif;
 }
 
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+}
+hr {
+  border-top: 1px dashed;
+}
+
 i.fa-github,
 i.fa-linkedin-square{
   color: white;
@@ -38,20 +51,6 @@ i.fa-send {
   color: teal;
   font-size: 24px;
   margin-right: 0.5em
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-body {
-  background-color: black;
-}
-
-hr {
-  border-top: 1px dashed;
 }
 
 #details {
