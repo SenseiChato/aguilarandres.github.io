@@ -27,11 +27,6 @@ hr {
   padding-left:24px;
 }
 
-div#left-column {
-  color: white;
-  font-size: 24px;
-}
-
 .fa-code,
 .fa-language {
   color: teal;
@@ -51,6 +46,11 @@ div#left-column {
   color: teal;
   font-size: 24px;
   margin-right: 0.5em
+}
+
+#left-column {
+  color: white;
+  font-size: 24px;
 }
 
 #grid {
