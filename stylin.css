@@ -1,20 +1,17 @@
 html,body,h1,h2,h3,h4,h5,h6{
   font-family: "Ubuntu Mono", sans-serif;
 }
-
 header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 body {
   background-color: black;
 }
 hr {
   border-top: 1px dashed;
 }
-
 .fa-github,
 .fa-linkedin-square{
   color: white;
@@ -26,14 +23,12 @@ hr {
   font-size: 44px;
   padding-left:24px;
 }
-
 .fa-code,
 .fa-language {
   color: teal;
   font-size: 32px;
   margin-right: 0.5em;
 }
-
 .fa-certificate,
 .fa-code-fork,
 .fa-free-code-camp,
@@ -41,7 +36,6 @@ hr {
   color: teal;
   margin-right: 0.5em;
 }
-
 .fa-send {
   color: teal;
   font-size: 24px;
@@ -52,7 +46,6 @@ hr {
   color: white;
   font-size: 24px;
 }
-
 #grid {
   padding: 20px;
 }
@@ -71,22 +64,18 @@ hr {
   font-size: 18px;
   transition: 0.4s;
 }
-
 .active, .accordion:hover {
   background-color: white;
 }
-
 .accordion:after {
   content: '\002B';
   color: black;
   float: right;
   margin-left: 5px;
 }
-
 .active:after {
   content: "\2212";
 }
-
 .panel {
   padding: 0 18px;
   display: none;
