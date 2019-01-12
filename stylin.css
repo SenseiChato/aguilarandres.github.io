@@ -65,7 +65,7 @@ hr {
   transition: 0.4s;
 }
 .active, .accordion:hover {
-  background-color: white;
+  background-color: #66CDAA;
 }
 .accordion:after {
   content: '\002B';
