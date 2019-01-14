@@ -2,7 +2,7 @@ var tech = new Vue({
   el: '#tech',
   data: {
     items: [
-      { tech: 'c++' },
+      { tech: 'C++' },
       { tech: 'css' },
       { tech: 'docker' },
       { tech: 'git' },
