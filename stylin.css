@@ -21,8 +21,9 @@ hr {
 .fa-stack-overflow ,
 .fa-envelope {
   color: white;
-  font-size: 38px;
+  font-size: 36px;
   padding-left:24px;
+  padding-top: 44px;
 }
 .fa-code,
 .fa-language {
