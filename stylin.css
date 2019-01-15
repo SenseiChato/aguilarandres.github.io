@@ -15,12 +15,13 @@ hr {
 .fa-github,
 .fa-linkedin-square{
   color: white;
-  font-size: 48px;
+  font-size: 42px;
   padding-left:24px;
 }
-.fa-stack-overflow {
+.fa-stack-overflow ,
+.fa-envelope {
   color: white;
-  font-size: 44px;
+  font-size: 38px;
   padding-left:24px;
 }
 .fa-code,
