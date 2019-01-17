@@ -2,6 +2,7 @@ html,body,h1,h2,h3,h4,h5,h6{
   font-family: "Ubuntu", sans-serif;
 }
 header {
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,19 +13,70 @@ body {
 hr {
   border-top: 1px dashed;
 }
-.fa-github,
-.fa-linkedin-square{
-  color: white;
-  font-size: 42px;
-  padding-left:24px;
+
+ul.icons {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
 }
-.fa-stack-overflow ,
+
+ul.icons li {
+  position: relative;
+  list-style: none;
+  width: 80px;
+  height: 80px;
+  background: black;
+  margin: 0 10px;
+  border: 4px solid #66CDAA;
+  box-sizing: border-box;
+  border-radius: 50%;
+  transition: .30s;
+  overflow: hidden;
+}
+
+ul.icons li:hover {
+  background-color: #66CDAA;
+}
+
+ul.icons li .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  transition: .5s;
+}
+
 .fa-envelope {
-  color: white;
   font-size: 36px;
-  padding-left:24px;
-  padding-top: 44px;
 }
+.fa-github {
+  font-size: 52px;
+}
+.fa-linkedin-square {
+  font-size: 48px;
+}
+.fa-stack-overflow {
+  font-size: 38px;
+}
+
+
+ul.icons li .fa:nth-child(1) {
+  left: -50%;
+  opacity: 0;
+}
+ul.icons li:hover .fa:nth-child(1) {
+  left: 50%;
+  opacity: 1;
+  color: #fff;
+}
+ul.icons li:hover .fa:nth-child(2) {
+  left: 150%;
+  opacity: 0;
+}
+
 .fa-code,
 .fa-language {
   color: teal;
@@ -35,7 +87,7 @@ hr {
 .fa-code-fork,
 .fa-free-code-camp,
 .fa-laptop {
-  color: teal;
+  color: #66CDAA;
   margin-right: 0.5em;
 }
 
