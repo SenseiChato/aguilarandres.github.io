@@ -1,241 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <title>profile</title>
+
 <head>
   <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-  <link rel='icon' href='favicon-paint-brush.ico' type='icon'>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <!-- Vue development version, includes helpful console warnings -->
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <link rel='icon' href='favicon-terminal.ico' type='icon'>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.6.3/css/all.css' integrity='sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/' crossorigin='anonymous'>
   <link rel="stylesheet" type="text/css" href="stylin.css">
 </head>
 <header>
-
-  <div>
-    <ul class="icons">
-      <li>
-        <a href="mailto:aguilar_andres@protonmail.com" target="_top">
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        <i class="fa fa-envelope" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/aguilarandres" target="_blank" rel="noopener">
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <i class="fa fa-github" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/a-guilar/" target="_blank" rel="noopener">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://stackoverflow.com/users/story/2898736" target="_blank" rel="noopener">
-          <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-          <i class="fa fa-stack-overflow" aria-hidden="true"></i>
-        </a>
-      </li>
-    </ul>
-
-
-
-
+  <div class="icons">
+    <a href="mailto:aguilar_andres@protonmail.com" target="_top">
+      <i class="far fa-envelope" aria-hidden="true"></i></a>
+    <a href="https://github.com/aguilarandres" target="_blank" rel="noopener">
+      <i class="fab fa-github" aria-hidden="true"></i></a>
+    <a href="https://www.linkedin.com/in/a-guilar/" target="_blank" rel="noopener">
+      <i class="fab fa-linkedin" aria-hidden="true"></i></a>
+    <a href="https://stackoverflow.com/users/story/2898736" target="_blank" rel="noopener">
+      <i class="fab fa-stack-overflow" aria-hidden="true"></i></a>
   </div>
+  <h1 id="name">andres aguilar:</h1>
 </header>
 
 <body>
-  <!-- Page Container -->
-  <div class="w3-content" style="max-width:1300px;">
-    <!-- The Grid -->
-    <div id="grid">
-      <!-- Left Column -->
-      <div class="w3-third">
-        <div style="border-width: 4px;">
-          <div class="w3-display-container">
-            <img src="./avatar.jpg" style="width:70%" alt="Avatar">
-          </div>
-          <div id="left-column">
-            <p>
-              andres aguilar
-            </p>
-            <hr>
-            <i class="fa fa-code"></i>
-            programming
-            <hr>
-            <div><!-- Technolgies -->
-              <ul id="tech">
-                <h4 v-for="item in items">
-                  {{ item.tech }}
-                </h4>
-              </ul>
-            </div>
-            <hr>
-            <i class="fa fa-language"></i>
-            languages
-            <hr>
-            <div><!-- Languages -->
-              <ul id="lang">
-                <h4 v-for="item in items">
-                  {{ item.language }}
-                </h4>
-              </ul>
-            </div>
-          </div>
-          <script src="js/list.js"></script>
-        </div>
-        <!-- End Left Column -->
-      </div>
-      <!-- Right Column -->
-      <div class="w3-twothird" style="padding: 20px;">
-        <div class="w3-black" style="border-width: 2px;">
-          <h2>
-            experience
-          </h2>
-          <hr>
-          <div>
-            <h4>
-              <i class="fa fa-laptop"></i>
-              software developer @
-              <a href="https://cooktu.com/#/" target="_blank" rel="noopener">cooktu</a>
-              [NOV 2018 - PRESENT]
-            </h4>
-            <hr>
-
-            <h2>
-              projects
-            </h2>
-            <hr>
-            <button class="accordion">hacktoberfest 2018</button>
-            <div class="panel">
-              <ul>
-                <div id="fibonacci">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-code-fork"></i>
-                    </a>
-                    {{ name }}
-                  </h4>
-                </div>
-                <div id="fcfs">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-code-fork"></i>
-                    </a>
-                    {{ name }}
-                  </h4>
-                </div>
-                <div id="bit_shift">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-code-fork"></i>
-                    </a>
-                    {{ name }}
-                  </h4>
-                </div>
-                <div id="case_shift">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-code-fork"></i>
-                    </a>
-                    {{ name }}
-                  </h4>
-                </div>
-                <div id="linked_list">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-code-fork"></i>
-                    </a>
-                    {{ name }}
-                  </h4>
-                </div>
-                <div id="cll">
-                  <h4>
-                    <a :href="url" target="_blank" rel="noopener">
-                      <i class="fa fa-code-fork"></i>
-                    </a>
-                    {{ name }}
-                  </h4>
-                </ul>
-              </div>
-              <script src="js/project.js"></script>
-            </div>
-            <script src="js/accordion.js"></script>
-            <div class="w3-black" style="border-width: 2px;">
-              <hr>
-              <h2>
-                education
-              </h2>
-              <hr>
-              <!-- Implements Vue js instance -->
-              <div id="bcit2">
-                <h4>
-                  {{ name }} [ {{ month }} {{ year }} ]
-                  <br>
-                  <!-- <i class="fa fa-certificate"></i> -->
-                  {{ cert }}
-                </h4>
-                <hr>
-              </div>
-              <div id="bcit">
-                <h4>
-                  {{ name }} [ {{ month }} {{ year }} ]
-                  <br>
-                  <i class="fa fa-certificate"></i>
-                  {{ cert }}
-                </h4>
-                <hr>
-              </div>
-              <div id="freeCodeCamp2">
-                <h4>
-                  <i class="fa fa-free-code-camp"></i>
-                  {{ name }} [ {{ month }} {{ year }} ]
-                  <br>
-                  <a :href="url" target="_blank" rel="noopener">
-                    <i class="fa fa-certificate"></i>
-                  </a>
-                  {{ cert }}
-                </h4>
-                <hr>
-              </div>
-              <div id="freeCodeCamp">
-                <h4>
-                  <i class="fa fa-free-code-camp"></i>
-                  {{ name }} [ {{ month }} {{ year }} ]
-                  <br>
-                  <a :href="url" target="_blank" rel="noopener">
-                    <i class="fa fa-certificate"></i>
-                  </a>
-                  {{ cert }}
-                </h4>
-                <hr>
-              </div>
-
-
-              <div id="gatech">
-                <h4>
-                  {{ name }} [ {{ month }} {{ year }} ]
-                  <br>
-                  <a :href="url" target="_blank" rel="noopener">
-                    <i class="fa fa-certificate"></i>
-                  </a>
-                  {{ cert }}
-                </h4>
-                <hr>
-              </div>
-
-
-              <script src="./js/school.js"></script>
-
-            </div>
-          </div>
-          <!-- End Right Column -->
-        </div>
-        <!-- End Grid -->
-      </div>
-      <!-- End Page Container -->
+  <section class="columns">
+    <div class="column">
+      <h2>experience</h2>
+      <ul>
+        <li>Software Developer @ Cooktu</li>
+      </ul>
+      <h2>projects</h2>
+      <ul>
+        <li>hacktoberfest 2018</li>
+      </ul>
     </div>
-  </body>
-  </html>
+
+    <div class="column">
+      <h2>education</h2>
+      <p>British Columbia Institute of Technology</p>
+      <ul>
+        <li>Computer Systems Technology Diploma</li>
+        <li>Computer Systems Certificate</li>
+      </ul>
+      <p>freeCodeCamp</p>
+      <ul>
+        <li>JavaScript Algorithms and Data Structures </li>
+        <li>Responsive Web Design</li>
+      </ul>
+      <p>Georgia Institute of Technology</p>
+      <ul>
+        <li>Computing in Python: Objects and Algorithms</li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <h2>programming</h2>
+      <ul>
+        <li>C++</li>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>git</li>
+      </ul>
+    </div>
+  </section>
+</body>
+</html>
