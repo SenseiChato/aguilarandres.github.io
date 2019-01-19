@@ -1,17 +1,19 @@
 header {
-  height: 12vw;
+  height: 120px;
   background-color: #000000;
 }
 
-.fab, .far{
-  font-size: 3vw;
-  padding-left: 1vw;
-  padding-top: 3vw;
+.icons .fab, .far {
+  font-size: 36px;
+  padding-left: 10px;
+  padding-top: 10px;
   color: #FFFFF0;
 }
 
-#name {
-  padding-left: 1vw;
+.tech .fab {
+  font-size: 36px;
+  padding-bottom: 8px;
+  color: #FFFFF0;
 }
 
 /* BODY */
